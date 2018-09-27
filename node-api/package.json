@@ -1,0 +1,22 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "test api",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "express": "^4.16.3",
+        "mongoose": "^5.2.13"
+    },
+    "dependencies": {
+        "avatar": "^0.1.0",
+        "bcrypt": "^3.0.0",
+        "body-parser": "^1.18.3",
+        "gravatar": "^1.6.0"
+    }
+}
